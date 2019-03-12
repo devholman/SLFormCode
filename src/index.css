@@ -51,7 +51,7 @@ body {
   font-weight: '400';
   font-size: 12px;
 }
-.required-label {
+.label-required {
   font-family: 'merriwhether';
   color: #e70000;
   font-weight: '400';
@@ -69,6 +69,11 @@ body {
   height: 48px;
   font-size: 14px;
   color: #666666;
+}
+#input-required {
+  border: 1px solid #e70000;
+  background-color: #ffffff;
+  outline: none;
 }
 input[type='text']:focus {
   background-color: #ffffff;
